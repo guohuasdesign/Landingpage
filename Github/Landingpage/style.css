@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+ /* Set the base font size to 16px */
+html {
+    font-size: 1rem;
+    /* Default setting for most browsers */
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-stretch: expanded;
+    font-style: normal;
+    font-weight: bold；
+    line-height: 1.6rem;
+    color: #434440;
+    background-color: #FEDFE5;
+}
+
+header {
+    background-color: #f0a05f;
+    font-style: italic;
+    color: #F7F0E6;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    background-color: #e76f51;
+    /* CSS rules for extra small screens */
+  }
+/* Large devices (laptops/desktops, 992px to 1200px) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    background-color: #1fdd84;
+    /* CSS rules for large screens */
+  }
+
+
+header h1 {
+    color:#F7F0E6;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+
+main {
+    padding-top: 2rem;
+    padding-right: 6rem;
+    padding-bottom: 2rem;
+    padding-left: 6rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    background: #fabdcc;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2rem 2rem 2rem 2rem rgba(243, 142, 103, 0.1);
+
+}
+
+ section h2 {
+    color: #e76f51;
+    margin-bottom: 1rem;
+
+}
+
+ul {
+    list-style: disc inside;
+    margin-left: 1rem;
+}
+
+img {
+    border-radius: 50rem;
+    margin: 0.5rem;
+    width: 25rem;
+    display: inline;
+
+}
+
+
+section form {
+    
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #C9DAD0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+section~form {
+    background: #C9DAD0;
+
+}
+
+form label {
+    font-weight: bold;
+    color: #779788;
+}
+
+form input {
+    background-color: #F7F0E6;;
+    border-radius: 8px;
+}
+
+form textarea{
+    background-color: #F7F0E6;8;
+    border-radius: 16px;
+}
+
+.name {
+    font-size: larger;
+    font-weight: bold；
+    line-height: 0.6rem;
+
+}
+
+.email {
+    font-size: larger;
+    font-weight: bold；
+    line-height: 0.6rem;
+
+}
+
+.message {
+    font-size: larger;
+    font-weight: bold；
+    line-height: 0.6rem;
+
+}
+
+form button{
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2REM;
+    background-color: #779788;
+    border-radius: 50px;
+    color:#F7F0E6;
+    font-size: large;
+    font-weight:bold
+
+}
+form button:hover {
+    color:#fabdcc;
+    background-color: #1fdd84;
+}
+
+footer {
+    background-color: #fabdcc;
+    color:#F7F0E6;
+    text-align: center;
+    padding: 10px 50px;
+}
